@@ -7,7 +7,7 @@
     "express-serve-static-core": "registry:dt/express-serve-static-core#4.0.0+20160715232503",
     "express-session": "registry:dt/express-session#0.0.0+20160331200931",
     "mime": "registry:dt/mime#0.0.0+20160316155526",
-    "node": "registry:dt/node#6.0.0+20160621231320",
+    "node": "registry:dt/node#6.0.0+20160720070758",
     "serve-static": "registry:dt/serve-static#0.0.0+20160606155157"
   }
 }
