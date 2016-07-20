@@ -1,6 +1,6 @@
 {
   "name": "ts-express-angular2-node-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Light-weight startup boilerplate for angular2 with typescript and expressjs",
   "repository": "https://github.com/tngan/ts-express-angular2-node-boilerplate.git",
   "author": "tngan",
