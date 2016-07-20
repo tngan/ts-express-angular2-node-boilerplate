@@ -14,7 +14,7 @@
     "boilerplate"
   ],
   "scripts": {
-    "dev": "concurrently \"npm run tsc:w\" \"npm run server\" ",
+    "dev": "concurrently \"npm run tsc:w\" \"npm start\" ",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "start": "nodemon ./server/bin/www",
