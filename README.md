@@ -2,6 +2,8 @@
 
 Basically, you don't want to learn too much when you pick a boilerplate. Clone and start the prototyping.
 
+This boilerplate is built on top of [5 Min Quickstart](https://angular.io/docs/ts/latest/quickstart.html).
+
 ### Installation
 To install the latest release
 ```bash
