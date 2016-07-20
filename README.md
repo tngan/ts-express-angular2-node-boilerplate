@@ -13,13 +13,17 @@ $ npm install
 ```
 
 ### Scripts
+- **npm start**: Start a server without watching the typescript files.
+
 - **npm run dev**: Start a server and watch the change in typescript files concurrently.
 
 - **npm run tsc**: Compile the typescript files.
 
 - **npm run tsc:w**: Compile and watch the typescript files.
 
-- **npm run server**: Start a server without watching the typescript files.
+### Help
+
+- [Update the typings package](https://github.com/typings/typings/issues/109)
 
 ### Note
 
