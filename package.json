@@ -5,6 +5,14 @@
   "repository": "https://github.com/tngan/ts-express-angular2-node-boilerplate.git",
   "author": "tngan",
   "license": "MIT",
+	"keywords": [
+    "angular2",
+    "angular",
+    "typescript",
+    "express",
+    "node",
+    "boilerplate"
+  ],
   "scripts": {
     "dev": "concurrently \"npm run tsc:w\" \"npm run server\" ",
     "tsc": "tsc",
