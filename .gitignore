@@ -1,0 +1,32 @@
+# Ignore environment variable used in dotenv
+.env
+
+# Ignore the compiled typings folder
+typings
+
+# Ignore .js file transpiled from typescript
+*.js.map
+*.js
+
+# Allow the systemjs.config.js
+!config/systemjs.config.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directory
+# https://docs.npmjs.com/misc/faq#should-i-check-my-node-modules-folder-into-git
+node_modules
