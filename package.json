@@ -6,7 +6,7 @@
   "author": "tngan",
   "license": "MIT",
   "scripts": {
-    "start": "concurrently \"npm run tsc:w\" \"npm run server\" ",
+    "dev": "concurrently \"npm run tsc:w\" \"npm run server\" ",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "server": "nodemon ./server/bin/www",
