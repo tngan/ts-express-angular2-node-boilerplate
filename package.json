@@ -5,7 +5,7 @@
   "repository": "https://github.com/tngan/ts-express-angular2-node-boilerplate.git",
   "author": "tngan",
   "license": "MIT",
-	"keywords": [
+  "keywords": [
     "angular2",
     "angular",
     "typescript",
@@ -40,6 +40,7 @@
     "express": "^4.13.4",
     "express-session": "^1.11.3",
     "reflect-metadata": "0.1.2",
+    "serve-favicon": "^2.3.0",
     "systemjs": "0.19.27"
   },
   "devDependencies": {

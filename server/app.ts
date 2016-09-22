@@ -5,6 +5,7 @@ import * as path from 'path';
 import * as cookieParser from 'cookie-parser';
 import * as  bodyParser from 'body-parser';
 import * as  session from 'express-session';
+import * as favicon from 'serve-favicon';
 
 import * as routes from './routes/index';
 
@@ -24,7 +25,8 @@ app.use(session({
   secret: 'somesecret',
   resave: true,
   saveUninitialized: true
-}));
+})); 
+app.use(favicon(path.join(__dirname, '../public', 'favicon.ico')));
 app.use(express.static(path.join(__dirname, '../public')));
 app.use('/lib',express.static(path.join(__dirname, '../node_modules')));
 app.use('/app',express.static(path.join(__dirname, '../app')));
